@@ -13,6 +13,17 @@ pip install opencv-python mediapipe
 python test_camera_module.py
 ```
 
+**What to expect**: 
+- Camera Access test ✓
+- Face Detection test ✓
+- Real-time detection for 30 seconds
+- Performance metrics
+
+**Troubleshooting**: If camera fails:
+1. Check if camera is connected
+2. Grant camera permissions (Windows might ask)
+3. Try closing other apps using camera (Zoom, Teams, etc.)
+
 ### Step 3: Run the Main System 
 ```bash
 python main.py
