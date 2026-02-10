@@ -1,2 +1,9 @@
-opencv-python==4.8.1.78
-numpy==1.24.3
+Requirements:
+numpy
+opencv-python
+mediapipe
+imutils
+kivy
+kivymd
+pillow
+These libraries will be used in entire project
