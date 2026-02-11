@@ -4,7 +4,7 @@
 
 ### Step 1: Install Python Packages (1 minute)
 ```bash
-pip install -r requirements.txt
+pip install opencv-python mediapipe
 ```
 
 **What this does**: Installs OpenCV, MediaPipe, and NumPy
