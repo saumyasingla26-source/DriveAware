@@ -1,9 +1,6 @@
-Requirements:
-numpy
 opencv-python
 mediapipe
-imutils
+numpy
 kivy
 kivymd
-pillow
-These libraries will be used in entire project
+playsound
