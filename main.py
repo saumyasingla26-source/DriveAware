@@ -1,8 +1,8 @@
-from camera_module import CameraModule
-from eye_detection_module import EyeDetection
-from drowsiness_logic_module import DrowsinessDetector
-from alarm_module import AlarmSystem
-from database_module import DatabaseManager
+from modules.camera_module import CameraModule
+from modules.eye_detection_module import EyeDetection
+from modules.drowsiness_logic_module import DrowsinessDetector
+from modules.alarm_module import AlarmSystem
+from modules.database_module import DatabaseManager
 
 # Initialize modules
 camera = CameraModule()
@@ -52,7 +52,7 @@ while camera.is_running():
 
         # Display status & EAR
         camera.draw_text(frame, f"Status: {status}", (20, 40), color)
-        camera.draw_text(frame, f"EAR: {round(ear, 3)}", (20, 80), (255, 255, 255))
+        camera.draw_text(frame, f"EAR: {round(ear, 3)}", (20, 80), (0, 0, 0))
 
         # Draw eye landmarks
         eye.draw_eye_points(frame, left_eye)
